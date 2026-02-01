@@ -1,0 +1,68 @@
+Terraform files
+.terraform/
+*.tfstate
+.tfstate.
+terraform.tfstate.backup
+.terraform.tfstate.lock.info
+
+Sensitive data
+*.pem
+*.key
+*.p12
+*.cer
+.env
+secrets.tfvars
+
+Local editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+OS files
+.DS_Store
+Thumbs.db
+
+text
+
+### **File 4: `documentation/LEARNINGS.md`**
+Create folder `documentation` inside your project folder, then create `LEARNINGS.md`:
+```markdown
+# Technical Learnings - Terraform Azure Deployment
+
+## Date: February 2025
+
+## 1. Terraform Workflow Mastery
+- **init → plan → apply → destroy** lifecycle
+- Importance of `terraform plan` for change preview
+- State file management and security considerations
+
+## 2. Azure Cloud Shell Advantages
+- No local installation required
+- Pre-configured with Azure authentication
+- Persistent storage for project files
+- Accessible from any browser
+
+## 3. Infrastructure as Code Principles
+- Declarative vs imperative configuration
+- Version control for infrastructure
+- Reproducible deployments
+- Documentation as part of development
+
+## 4. Azure Specific Learnings
+- Resource naming conventions
+- Tagging for organization and cost tracking
+- Region selection impact on performance/cost
+- Resource group as organizational unit
+
+## 5. Problem-Solving Insights
+- Provider configuration errors (typo correction)
+- Authentication flow in cloud environments
+- Cost management through immediate cleanup
+- Verification processes for cloud deployments
+
+## 6. Career Relevance
+- Cloud Engineer skill demonstration
+- DevOps methodology understanding
+- Professional documentation practices
+- Portfolio development strategy
