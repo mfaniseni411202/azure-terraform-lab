@@ -18,9 +18,9 @@ Deployed an Azure Resource Group using Terraform via Azure Cloud Shell, demonstr
 **Technologies:** Terraform, Azure Cloud Shell, Azure Portal, Git
 
 **Screenshots:**
-- ![Terraform Init Success](terraform-init-success.png)
-- ![Terraform Plan Output](terraform-plan-output.png)
-- ![Azure Portal Verification](azure-portal-verification.png)
+- ![Terraform Init Success](01-init-success.png)
+- ![Terraform Plan Output](03-plan-output.png)
+- ![Azure Portal Verification](04-verification.png)
 
 **Code:** [View Terraform Configuration](main.tf)
 
