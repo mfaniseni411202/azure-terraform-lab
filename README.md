@@ -1,68 +1,76 @@
-# Azure Terraform Deployment Project
+# Azure Cloud Engineering Projects Portfolio
 
-## Overview
-This project demonstrates Infrastructure as Code (IaC) using Terraform to deploy an Azure Resource Group. The deployment was executed via Azure Cloud Shell, showcasing cloud-native development workflows.
+## 👋 About Me
+IT professional transitioning into Cloud Engineering with hands-on experience in Azure infrastructure, automation, and Infrastructure as Code. Currently advancing skills through CompTIA certification path while building practical cloud projects.
 
-## Project ArchitectureTerraform
- 
-Code → Azure Provider → Resource Group Deployment
+## 🚀 Projects
 
-## Technologies Used
-- **Infrastructure as Code:** Terraform v1.6+
-- **Cloud Platform:** Microsoft Azure
-- **Environment:** Azure Cloud Shell (Bash)
-- **Documentation:** Markdown
+### 1. **Azure Terraform Deployment**
+**Infrastructure as Code | Azure | Terraform**  
+Deployed an Azure Resource Group using Terraform via Azure Cloud Shell, demonstrating full IaC lifecycle.
 
-## Deployment Steps
-1. **Authentication:** Azure Cloud Shell implicit authentication
-2. **Initialization:** `terraform init` - Download Azure provider plugins
-3. **Planning:** `terraform plan` - Preview infrastructure changes
-4. **Execution:** `terraform apply` - Deploy Azure Resource Group
-5. **Verification:** Azure Portal validation
-6. **Cleanup:** `terraform destroy` - Remove resources
+**Key Features:**
+- Terraform configuration for Azure Resource Group
+- Complete init → plan → apply → destroy workflow
+- Cloud cost management through immediate cleanup
+- Professional documentation and version control
 
-## Code Structure
-```hcl
-resource "azurerm_resource_group" "banele_rg" {
-  name     = "rg-banele-terraform-lab"
-  location = "South Africa North"
-  
-  tags = {
-    Environment = "Lab"
-    Owner       = "Banele"
-    Project     = "Cloud-Engineering"
-  }
-}
-Key Learnings
-Terraform's declarative syntax for cloud infrastructure
+**Technologies:** Terraform, Azure Cloud Shell, Azure Portal, Git
 
-Azure Cloud Shell as a zero-install development environment
+**Screenshots:**
+- ![Terraform Init Success](images/terraform-init-success.png)
+- ![Terraform Plan Output](images/terraform-plan-output.png)
+- ![Azure Portal Verification](images/azure-portal-verification.png)
 
-Importance of terraform plan before applying changes
+**Code:** [View Terraform Configuration](main.tf)
 
-Cloud cost management through immediate resource cleanup
+---
 
-Infrastructure lifecycle management principles
+### 2. **Azure Python Automation Script**
+**Python Automation | Cloud Monitoring | Azure SDK Foundation**  
+Python script simulating Azure Virtual Machine status monitoring, demonstrating cloud automation principles.
 
-Screenshots
-Step	Description	File
-1	Terraform Initialization	screenshots/01-init-success.png
-2	Terraform Plan Output	screenshots/02-plan-output.png
-3	Terraform Apply Success	screenshots/03-apply-success.png
-4	Azure Portal Verification	screenshots/04-portal-verify.png
-5	Resource Cleanup	screenshots/05-destroy-complete.png
-Future Enhancements
-Add Azure Virtual Machine deployment
+**Key Features:**
+- Simulated Azure VM status checking
+- Formatted output with status indicators
+- Summary statistics generation
+- Foundation for real Azure SDK integration
 
-Implement Terraform variables for flexibility
+**Technologies:** Python 3, Azure Cloud Shell, Markdown Documentation
 
-Create remote state storage (Azure Blob)
+**Screenshots:**
+- ![Python Script Output](images/python-script-output.png)
+- ![Cloud Shell Execution](images/cloud-shell-execution.png)
 
-Add network security groups
+**Code:** [View Python Script](azure_vm_checker.py)
 
-Implement CI/CD pipeline with GitHub Actions
+---
 
-Author
-Banele Ndlanzi
-GitHub Profile | LinkedIn ProfileLicense
-This project is for educational purposes as part of cloud engineering skill development.
+## 🛠️ Technical Skills
+**Cloud Platforms:** Microsoft Azure (Resource Management, VM Deployment)  
+**Infrastructure as Code:** Terraform (Basic Configuration)  
+**Automation & Scripting:** Python (Intermediate), PowerShell  
+**Operating Systems:** Windows, Linux (Ubuntu)  
+**Networking:** TCP/IP, DNS, Cloud Network Fundamentals  
+**Tools:** Azure Cloud Shell, Git, VS Code, Azure Portal  
+**Certifications in Progress:** CompTIA A+, Network+, Security+
+
+---
+
+## 📈 Learning Journey
+- **Foundation:** CompTIA certification path for core IT knowledge
+- **Hands-on:** Building cloud projects to apply theoretical knowledge
+- **Documentation:** Maintaining professional project documentation
+- **Portfolio:** Creating tangible evidence of cloud engineering skills
+
+---
+
+## 📞 Contact & Profiles
+- **GitHub:** [github.com/mfaniseni411202](https://github.com/mfaniseni411202)
+- **LinkedIn:** [linkedin.com/in/banele-lethokuhle-a61444335](https://linkedin.com/in/banele-lethokuhle-a61444335)
+- **Email:** banelethoku@gmail.com
+
+---
+
+## 📝 License & Purpose
+This portfolio is for educational and professional development purposes. All projects are part of my cloud engineering skill-building journey.
