@@ -18,9 +18,9 @@ Deployed an Azure Resource Group using Terraform via Azure Cloud Shell, demonstr
 **Technologies:** Terraform, Azure Cloud Shell, Azure Portal, Git
 
 **Screenshots:**
-- ![Terraform Init Success](images/terraform-init-success.png)
-- ![Terraform Plan Output](images/terraform-plan-output.png)
-- ![Azure Portal Verification](images/azure-portal-verification.png)
+- ![Terraform Init Success](terraform-init-success.png)
+- ![Terraform Plan Output](terraform-plan-output.png)
+- ![Azure Portal Verification](azure-portal-verification.png)
 
 **Code:** [View Terraform Configuration](main.tf)
 
@@ -39,8 +39,8 @@ Python script simulating Azure Virtual Machine status monitoring, demonstrating 
 **Technologies:** Python 3, Azure Cloud Shell, Markdown Documentation
 
 **Screenshots:**
-- ![Python Script Output](images/python-script-output.png)
-- ![Cloud Shell Execution](images/cloud-shell-execution.png)
+- ![Python Script Output](python-script-output.png)
+- ![Cloud Shell Execution](cloud-shell-execution.png)
 
 **Code:** [View Python Script](azure_vm_checker.py)
 
